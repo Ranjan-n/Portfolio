@@ -112,7 +112,7 @@ a:hover {
   width: 75%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  background-color: #0c0c0c;
+  background-color: #0c0c0c00;
   z-index: 1000;
 }
 
@@ -281,7 +281,7 @@ img {
     top: 100%;
     left: 0%;
     width: 95%;
-    background-color: #0c0c0c;
+    background-color: #0c0c0c00;
     padding: 1em;
     border-radius: 5%;
   }
@@ -307,11 +307,11 @@ img {
   }
 
   .main-body.mov {
-    margin-top: 130%;
+    margin-top: 200%;
   }
 
   .main-body2.mov {
-    margin-top: 130%;
+    margin-top: 200%;
   }
 
   .mainTyper {
@@ -357,7 +357,7 @@ img {
     left: 0;
     width: 95%;
     height: auto;
-    background-color: #0c0c0c;
+    background-color: #0c0c0c00;
     padding: 1em;
     border-radius: 5%;
   }
@@ -374,11 +374,11 @@ img {
   }
 
   .main-body.mov {
-    margin-top: 250%;
+    margin-top: 350%;
   }
 
   .main-body2.mov {
-    margin-top: 250%;
+    margin-top: 350%;
   }
 
   .heading:nth-of-type(1) {
