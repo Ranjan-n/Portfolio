@@ -1,0 +1,429 @@
+body {
+  margin: 1em;
+  background-color: #0c0c0c;
+  line-height: 1.5;
+  color: aliceblue;
+}
+
+header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+h1 {
+  display: inline;
+  font-size: 3em;
+  padding: 0 5rem;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #666769;
+}
+
+.heading:nth-of-type(1) {
+  font-size: 5rem;
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.list div {
+  margin: 30px 0;
+  border-bottom: 1px solid #ffffff21;
+}
+
+.list h3 {
+  font-size: 1.8rem;
+}
+
+.list ul li,
+.list p {
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.no {
+  display: none;
+}
+
+.typer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10em;
+  color: #ffffff;
+}
+
+.typer2 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2.5em;
+  color: #ffffff;
+  transition: 0.49s;
+}
+
+.cursor-style {
+  background-color: #ffffff9d;
+}
+
+.mainTyper {
+  width: 10em;
+  font-size: 8em;
+  color: red;
+  line-height: 1;
+  font-stretch: expanded;
+}
+
+.main-body2 {
+  padding: 0 5em;
+  font-family: "Cantata One", serif;
+  font-weight: 400;
+}
+
+.main-body {
+  padding: 5em 3em;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  align-items: center;
+  height: 6vh;
+  padding: 2em 0 2em 0;
+  border-bottom: 1px solid #ffffff54;
+}
+
+.nav {
+  width: 75%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: #0c0c0c;
+  z-index: 1000;
+}
+
+nav a {
+  padding: 0 5em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #938e8e;
+}
+
+.stack {
+  color: red;
+}
+
+img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  padding: 2rem 0 0 0;
+}
+
+#animated-text {
+  opacity: 0;
+  animation: fadeInAnimation 2s ease forwards;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  body {
+    margin: 1em;
+  }
+
+  h1 {
+    padding: 0 2.5rem;
+  }
+
+  .typer {
+    font-size: 6em;
+  }
+
+  .typer2 {
+    font-size: 2.5em;
+  }
+
+  .navbar {
+    margin: 2em 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    align-items: center;
+    height: 5vh;
+    padding: 2em 0 2em 0;
+    border-bottom: 1px solid #ffffff54;
+  }
+
+  .nav {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .mainTyper {
+    font-size: 6em;
+  }
+
+  nav a {
+    padding: 0 2em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    margin: 0.5em;
+  }
+
+  h1 {
+    padding: 0 1.5rem;
+  }
+
+  .typer {
+    font-size: 4.5em;
+  }
+
+  .typer2 {
+    font-size: 2em;
+  }
+
+  .navbar {
+    margin: 2em 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    align-items: center;
+    height: 5vh;
+    padding: 2em 0 2em 0;
+    border-bottom: 1px solid #ffffff54;
+    position: relative;
+  }
+
+  .container {
+    padding: 0.4em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-right: 3.5rem;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .container:hover {
+    border: 1px solid #ffffff;
+    background-color: #373a40;
+  }
+
+  .container.small {
+    height: 30px;
+  }
+
+  .container.small:hover {
+    border: none;
+  }
+
+  .container:active {
+    background-color: #ffffff46;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .ham {
+    width: 35px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 5px 0;
+    transition: all 0.1s;
+  }
+
+  .ham:hover {
+    background-color: #373a40;
+  }
+
+  .ham.x {
+    display: none;
+  }
+
+  .no.s {
+    display: block;
+    font-size: 30px;
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 95%;
+    background-color: #0c0c0c;
+    padding: 1em;
+    border-radius: 5%;
+  }
+
+  .nav.active {
+    display: block;
+  }
+
+  .nav.active a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.56rem;
+  }
+
+  .nav.active a:hover {
+    text-decoration: underline;
+    color: #938e8e;
+  }
+
+  .main-body.mov {
+    margin-top: 130%;
+  }
+
+  .main-body2.mov {
+    margin-top: 130%;
+  }
+
+  .mainTyper {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    width: auto;
+    height: 25px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .main-body2 {
+    padding: 0 30px;
+  }
+
+  .container {
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-right: 3.5rem;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .container .ham {
+    width: 30px;
+    height: 4%;
+    background-color: #ffffff;
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 95%;
+    height: auto;
+    background-color: #0c0c0c;
+    padding: 1em;
+    border-radius: 5%;
+  }
+
+  .nav.active a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 3rem 0;
+    font-size: 1.56rem;
+  }
+
+  .main-body.mov {
+    margin-top: 250%;
+  }
+
+  .main-body2.mov {
+    margin-top: 250%;
+  }
+
+  .heading:nth-of-type(1) {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .list h3 {
+    font-size: 1.6rem;
+  }
+
+  .list ul li,
+  .list p {
+    font-size: 15px;
+  }
+
+  .typer {
+    font-size: 60px;
+  }
+
+  .typer2 {
+    margin-top: 2rem;
+    font-size: 30px;
+    margin-bottom: 2.5rem;
+  }
+
+  .mainTyper {
+    width: auto;
+    font-size: 3.75rem;
+    line-height: 75px;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .pic {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+}
