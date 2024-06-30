@@ -1,7 +1,7 @@
 var mainTyper;
 
 var typer = new Typed(".typer", {
-  strings: ["NAMASTHE", "Hello!!", "This is Ranjan.N"],
+  strings: ["NAMASTHE", "Hello!!", "I'm Ranjan.N !!"],
   typeSpeed: 50,
   backSpeed: 50,
   loop: false,
