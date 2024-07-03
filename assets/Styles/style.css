@@ -152,6 +152,11 @@ img {
   }
 }
 
+.logo {
+  width: 20px;
+  height: 20px;
+}
+
 @media screen and (max-width: 1450px) {
   body {
     margin: 1em;
@@ -421,9 +426,9 @@ img {
     display: flex;
     justify-content: center;
   }
-}
 
-.logo {
-  width: 20px;
-  height: 20px;
+  .logo {
+    width: 15px;
+    height: 14px;
+  }
 }
