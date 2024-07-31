@@ -1,9 +1,9 @@
 var mainTyper;
 
 var typer = new Typed(".typer", {
-  strings: ["NAMASTHE", "Hello!!", "I'm Ranjan.N !!"],
-  typeSpeed: 50,
-  backSpeed: 50,
+  strings: ["NAMASTHE", "Hello!!", "I'm Ranjan !!"],
+  typeSpeed: 30,
+  backSpeed: 20,
   loop: false,
   showCursor: false,
   onComplete: function () {
@@ -13,7 +13,7 @@ var typer = new Typed(".typer", {
       loop: true,
       cursorChar: "_",
       cursorClassName: "cursor-style",
-      typeSpeed: 50,
+      typeSpeed: 20,
     });
   },
 });
