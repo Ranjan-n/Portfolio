@@ -2,7 +2,7 @@ var mainTyper;
 
 var typer = new Typed(".typer", {
   strings: ["NAMASTHE", "Hello!!", "I'm Ranjan !!"],
-  typeSpeed: 30,
+  typeSpeed: 40,
   backSpeed: 20,
   loop: false,
   showCursor: false,
@@ -13,7 +13,7 @@ var typer = new Typed(".typer", {
       loop: true,
       cursorChar: "_",
       cursorClassName: "cursor-style",
-      typeSpeed: 20,
+      typeSpeed: 15,
     });
   },
 });
