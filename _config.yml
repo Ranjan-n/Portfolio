@@ -1,5 +1,0 @@
-title: My Portfolio
-description: A portfolio site showcasing my projects.
-baseurl: ""
-url: "https://ranjan-n.github.io/Portfolio"
-permalink: /:categories/:title/
