@@ -2,12 +2,12 @@
 
 Hello, This is my Portfolio!!
 
-This is basically done by :
+This is basically done by:
 
 - HTML
-- CSS (which is written from Scratch that is no framework has benn used)
-- A Bit of JavaScript (Uses DOM and a Typed class)
+- CSS (which is written from scratch, no framework has been used)
+- A bit of JavaScript (uses DOM and a Typed class)
 
-This is what I had Built as a beginner.
+This is what I built as a beginner.
 
-## Looking forward to build my actual Portfolio on top of this
+## Check out my advanced portfolio [here](https://ranjann.netlify.app/).
